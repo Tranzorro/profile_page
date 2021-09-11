@@ -1,0 +1,110 @@
+img {
+    width: auto;
+    height: auto;
+    border-radius: 50%;
+}
+
+#navbar {
+    /* style the navbar */
+    background-color: black;
+    /* overflow: hidden; */
+    margin: 0 auto;
+    height: 80px;
+}
+#centernav{
+    /* align-items: center; */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    /* width: 1000px; */
+}
+#navcol1{
+    display:flex;
+    flex-direction: row;
+    justify-items: center;
+    margin-right: 10px;
+    flex-wrap: nowrap;
+}
+#link a {
+    /* style navbar contents */
+    float: left;
+    color: blanchedalmond;
+    text-align: center;
+    padding:  10px 10px;
+    margin-top: 25px;
+    text-decoration: none;
+    font-size: 17px;
+}
+#navbar h1{
+    color: blanchedalmond;
+}
+#buttons button{
+    padding:  14px 16px;
+    margin: 10px;
+    left: auto;
+    /* float:left */
+    /* position: absolute; */
+    /* right: 10px; */
+    /* top: 15px; */
+    /* overflow: hidden; */
+}
+#pagename{
+    /* display: inline-block; */
+    float: left;
+}
+
+
+#mainbody{
+    /* style main body */
+    background-color: blue;
+    height: max-content;
+    padding: 10px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    justify-content:center
+}
+#column1, #column2
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+#column1{
+    overflow-y:scroll;
+    margin-right: 10px;
+    overflow-x: hidden;
+}
+#column2{
+    float: left;
+    margin-left: 10px;
+}
+#selfinfo{
+    /* style personal profile info */
+    background-color: red;
+    width: 500px;
+    height: 200px;
+}
+#education{
+    /* style education info */
+    margin-top: 50px;
+    background-color: purple;
+    width: 500px;
+    height: 200px;
+}
+#education .InnerBody{
+    width: fit-content;
+    height: fit-content;
+}
+#connectionrequests{
+    /* style connection requests */
+    background-color: green;
+    width: 250px;
+    height: 200px;
+}
+#yourconnections{
+    /* style personal connections */
+    background-color: yellow;
+    width: 250px;
+    height: 200px;
+}
