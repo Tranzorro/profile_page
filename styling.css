@@ -12,17 +12,25 @@ img {
     height: 80px;
 }
 #centernav{
-    /* align-items: center; */
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    /* width: 1000px; */
+    /* background-color: red; */
+    margin: 0 auto;
+    width: 790px;
 }
 #navcol1{
-    display:flex;
+    display: inline-flex;
     flex-direction: row;
-    justify-items: center;
-    margin-right: 10px;
+    align-items: left;
+    justify-content: left;
+    margin-left: 10px;
+    flex-wrap: nowrap;
+}
+#navcol2{
+    /* background-color: green; */
+    display: inline-flex;
+    flex-direction: row;
+    align-items: right;
+    justify-content: right;
+    margin-left: 300px;
     flex-wrap: nowrap;
 }
 #link a {
@@ -40,13 +48,8 @@ img {
 }
 #buttons button{
     padding:  14px 16px;
-    margin: 10px;
-    left: auto;
-    /* float:left */
-    /* position: absolute; */
-    /* right: 10px; */
-    /* top: 15px; */
-    /* overflow: hidden; */
+    background-color: rgb(4, 126, 182);
+    color: white;
 }
 #pagename{
     /* display: inline-block; */
@@ -56,7 +59,7 @@ img {
 
 #mainbody{
     /* style main body */
-    background-color: blue;
+    /* background-color: blue; */
     height: max-content;
     padding: 10px;
     overflow: hidden;
@@ -68,7 +71,8 @@ img {
 {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    margin-top: 20px;
+    /* justify-content: space-between; */
 }
 #column1{
     overflow-y:scroll;
@@ -83,7 +87,7 @@ img {
     /* style personal profile info */
     background-color: red;
     width: 500px;
-    height: 200px;
+    height: 400px;
 }
 #education{
     /* style education info */
@@ -107,4 +111,22 @@ img {
     background-color: yellow;
     width: 250px;
     height: 200px;
+    margin-top: 20px;
+}
+.TopColorBox{
+    background-color: rgb(49, 49, 49);
+    height: 50px;
+    width: 100%;
+}
+#Blue{
+    background-color: rgb(4, 126, 182);
+    height: 100px;
+}
+#avatar img{
+    margin-left: 30px;
+    float: left;
+    width: 120px;
+    height: auto;
+    position: absolute;
+    transform: translateY(40px);
 }

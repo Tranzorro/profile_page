@@ -12,5 +12,6 @@ var images = {
 function imginst(source){
     /* this is what will create instances of images */
     /* to load the image only once, not a million times and be slow */
-    image.src = images[source];
+    document.querySelector(this)
+    this.image.src = images[source];
 }
